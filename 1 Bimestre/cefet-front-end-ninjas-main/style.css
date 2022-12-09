@@ -1,0 +1,83 @@
+html, body{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(90deg, grey, white, black);
+    /* background-repeat: no-repeat; */
+    text-align: justify;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 100px;
+    font-size: 20px;
+    margin: 10px;
+}
+#logomarca{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img, iframe{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2{
+    font-family: "Abyssinica SIL", serif;
+}
+
+a{
+    text-decoration: underline;
+    color: rgb(192, 221, 27);
+    text-decoration: none;
+}
+
+a:link{
+    color:rgb(158, 167, 124);
+}
+a:visited{
+    color: orange;
+}
+a:hover{
+    color: goldenrod;
+}
+a:active{
+    transform: scale(1.2);
+    color: rgb(59, 59, 255);
+}
+
+a[href^="http"] {
+    background-image: url("img/globo.png");
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+/* img:not(alt){
+    border: solid 1px red;
+} */
+.nota{
+    opacity: 0.6;
+    background-color: grey;
+    padding: 20px;
+    transition: all ease 1s;
+}
+.nota:hover{
+    opacity: 1;
+}
+
+.nota strong{
+    color: rgb(196, 209, 13);
+}
+
+.passo strong{
+    font-size: 30px;
+    background-color: rgb(210, 107, 250);
+    color: rgb(193, 4, 250);
+    padding: 4px;
+}
+
+.passo em{
+    font-size: 24px;
+}
+

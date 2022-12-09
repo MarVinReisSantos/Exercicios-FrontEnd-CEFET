@@ -1,0 +1,36 @@
+
+#baixar {
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+#baixar > img {
+  height: 0.75em;
+}
+
+label{
+  display: block;
+  line-height: 2;
+}
+
+#btn::before{
+  content:""; 
+  display:inline-flex; 
+  background-image: url("imgs/icone-tesoura.png");
+  width:30px;
+  height:20px;
+  background-size:15px;
+  top: 6px;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+#btn{
+  position: relative;
+  left: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+  /* border-radius: 10px; */
+}
